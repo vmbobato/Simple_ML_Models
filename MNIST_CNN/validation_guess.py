@@ -1,13 +1,13 @@
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model 
 import numpy as np
 import matplotlib.pyplot as plt
 from tkinter import filedialog
 from PIL import Image, ImageOps
 
 # Load the trained model
-model = load_model('mnist_model.keras')
+model = load_model('MNIST_CNN/cnn_mnist_model.keras')
 
 # Function to load and preprocess an image
 def load_image():
